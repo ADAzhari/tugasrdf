@@ -1,0 +1,62 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+ex:Juli_Rejito a ex:Person ; rdfs:label "Dr. Juli Rejito M.Kom" ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Database_System_I .
+ex:Setiawan_Hadi a ex:Person ; rdfs:label "Dr. Setiawan Hadi M.Sc.CS" ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Professional_Ethics, ex:Digital_Image_Processing_Analysis .
+ex:Firas_Atqiya a ex:Person ; rdfs:label "Firas Atqiya, M.Si." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Theory_of_Language_Automata, ex:Computer_Architecture_Organization .
+ex:Rudi_Rosadi a ex:Person ; rdfs:label "Rudi Rosadi S.Si., M.Kom." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Theory_of_Language_Automata, ex:Computer_Network .
+ex:Mohamad_Noor_Rizal a ex:Person ; rdfs:label "Mohamad Noor Rizal M.A." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:English_I .
+ex:Asep_Sholahuddin a ex:Person ; rdfs:label "Dr. Drs. Asep Sholahuddin MT " ; ex:holdsPosition ex:Head_of_Laboratory ; ex:teaches ex:Artificial_Intelligence, ex:Computer_Architecture_Organization .
+ex:Intan_Nurma_Y a ex:Person ; rdfs:label "Dr. Intan Nurma Y" ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Artificial_Intelligence, ex:Soft_Computing .
+ex:Deni_Setiana a ex:Person ; rdfs:label "Deni Setiana S.Si., M.Cs." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Network_Management, ex:Advanced_Computer_Network .
+ex:Akmal a ex:Person ; rdfs:label "Dr. Akmal S.Si., M.T." ; ex:holdsPosition ex:Head_Of_Undergraduate_Program ; ex:teaches ex:Data_Structure, ex:Algorithm_Analysis .
+ex:Afrida_Helen a ex:Person ; rdfs:label "Dr. Afrida Helen S.T., M.Kom." ; ex:holdsPosition ex:Head_of_Department ; ex:teaches ex:Data_Structure, ex:Data_Warehouse .
+ex:Togar_Saragi a ex:Person ; rdfs:label "Prof. Dr. Drs. Togar Saragi M.Si." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Informatics_Physics .
+ex:Yuyun_Hidayat a ex:Person ; rdfs:label "Prof. Drs. Yuyun Hidayat MS., Ph.D." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Statistics .
+ex:Rahmat_Budiarto a ex:Person ; rdfs:label "Rahmat Budiarto" ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Computer_Network .
+ex:Akik_Hidayat a ex:Person ; rdfs:label "Drs. Akik Hidayat M.Kom. " ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Soft_Computing .
+ex:Dwi_Susanti a ex:Person ; rdfs:label "Dra. Dwi Susanti M.Si." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Calculus_II .
+ex:Atje_S_Abdullah a ex:Person ; rdfs:label "Prof. Dr. Atje S. Abdullah, MS., M.Kom." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Information_Systems .
+ex:Mira_Suryani a ex:Person ; rdfs:label "Dr. Mira Suryani S.Pd., M.Kom." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Software_Project_I, ex:Human_Computer_Interaction .
+ex:Dianne_Amor_Kusuma_MPd a ex:Person ; rdfs:label "Dr. Dianne Amor Kusuma S.Pd., M.Pd." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:English_II .
+ex:Julita_Nahar a ex:Person ; rdfs:label "Dra. Julita Nahar MT." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Operations_Research .
+ex:Erick_Paulus a ex:Person ; rdfs:label "Erick Paulus S.Si., M.Kom." ; ex:holdsPosition ex:InternalLecturer ; ex:teaches ex:Semantic_Web .
+ex:Budi_Adiperdana a ex:Person ; rdfs:label "Dr. Budi Adiperdana S.Si., M.Si." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Informatics_Physics .
+ex:Retasari_Dewi a ex:Person ; rdfs:label "Retasari Dewi S.I.Kom., M.I.Kom." ; ex:holdsPosition ex:ExternalLecturer ; ex:teaches ex:Interpersonal_Skills .
+
+
+ex:Anton_Djudju_Supriatna a ex:Person ; rdfs:label "Anton Djudju Supriatna" ; ex:holdsPosition ex:TataUsaha .
+ex:Dede_Mulyana a ex:Person ; rdfs:label "Dede Mulyana" ; ex:holdsPosition ex:TataUsaha .
+ex:Rd_Ratna_Dewi_Mintarsih a ex:Person ; rdfs:label "Rd. Ratna Dewi Mintarsih, A.Md." ; ex:holdsPosition ex:TataUsaha .
+ex:Reza_Purwadi a ex:Person ; rdfs:label "Reza Purwadi" ; ex:holdsPosition ex:TataUsaha .
+ex:Tita_Rosita a ex:Person ; rdfs:label "Tita Rosita, Dra." ; ex:holdsPosition ex:TataUsaha .
+ex:Suryani a ex:Person ; rdfs:label "Suryani" ; ex:holdsPosition ex:TataUsaha .
+ex:Iwan_Kurniawan a ex:Person ; rdfs:label "Iwan Kurniawan, S.E" ; ex:holdsPosition ex:Secreteray_of_Undergraduate_Program .
+
+
+ex:Database_System_I a ex:Course ; rdfs:label "Database System I" ; ex:scheduledAt "Monday, 07:30-10:00 " ; ex:locatedAt "0201-0724-0205" .
+ex:Professional_Ethics a ex:Course ; rdfs:label "Professional Ethics" ; ex:scheduledAt "Monday, 07:30-09:10 " ; ex:locatedAt "0201-0724-0204" .
+ex:Theory_of_Language_Automata a ex:Course ; rdfs:label "Theory of Language & Automata" ; ex:scheduledAt "Monday, 07:30-10:00 " ; ex:locatedAt "0201-0726-0102" .
+ex:English_I a ex:Course ; rdfs:label "English I" ; ex:scheduledAt "Monday, 10:00-11:40 " ; ex:locatedAt "0201-0726-0201" .
+ex:Artificial_Intelligence a ex:Course ; rdfs:label "Artificial Intelligence" ; ex:scheduledAt "Monday, 10:00-12:30 " ; ex:locatedAt "0201-0724-0206" .
+ex:Network_Management a ex:Course ; rdfs:label "Network Management" ; ex:scheduledAt "Monday, 10:00-12:30 " ; ex:locatedAt "0201-0726-0202" .
+ex:Data_Structure a ex:Course ; rdfs:label "Data Structure" ; ex:scheduledAt "Monday, 13:00-15:30 " ; ex:locatedAt "0201-0724-0205" .
+ex:Computer_Architecture_Organization a ex:Course ; rdfs:label "Computer Architecture & Organization" ; ex:scheduledAt "Tuesday, 07:30-10:00 " ; ex:locatedAt "0201-0726-0201" .
+ex:Informatics_Physics a ex:Course ; rdfs:label "Informatics Physics" ; ex:scheduledAt "Tuesday, 07:30-10:00 " ; ex:locatedAt "0201-0726-0102" .
+ex:Statistics a ex:Course ; rdfs:label "Statistics" ; ex:scheduledAt "Tuesday, 07:30-09:40 " ; ex:locatedAt "0201-0724-0204" .
+ex:Computer_Network a ex:Course ; rdfs:label "Computer Network" ; ex:scheduledAt "Tuesday, 07:30-10:00 " ; ex:locatedAt "0201-0724-0205" .
+ex:Soft_Computing a ex:Course ; rdfs:label "Soft Computing" ; ex:scheduledAt "Tuesday, 07:30-10:00 " ; ex:locatedAt "0201-0724-0206" .
+ex:Calculus_II a ex:Course ; rdfs:label "Calculus II" ; ex:scheduledAt "Tuesday, 10:00-12:30 " ; ex:locatedAt "0201-0726-0102" .
+ex:Information_Systems a ex:Course ; rdfs:label "Information Systems" ; ex:scheduledAt "Tuesday, 10:00-12:30 " ; ex:locatedAt "0201-0724-0204" .
+ex:Software_Project_I a ex:Course ; rdfs:label "Software Project I" ; ex:scheduledAt "Tuesday, 10:00-11:40 " ; ex:locatedAt "0201-0724-0206" .
+ex:Algorithm_Analysis a ex:Course ; rdfs:label "Algorithm Analysis" ; ex:scheduledAt "Tuesday, 13:00-15:30 " ; ex:locatedAt "0201-0724-0205" .
+ex:Digital_Image_Processing_Analysis a ex:Course ; rdfs:label "Digital Image Processing & Analysis" ; ex:scheduledAt "Wednesday, 07:30-10:00 " ; ex:locatedAt "0201-0724-0204" .
+ex:Advanced_Computer_Network a ex:Course ; rdfs:label "Advanced Computer Network" ; ex:scheduledAt "Wednesday, 13:00-15:30 " ; ex:locatedAt "0201-0726-0115" .
+ex:English_II a ex:Course ; rdfs:label "English II" ; ex:scheduledAt "Thursday, 07:30-09:10 " ; ex:locatedAt "0201-0724-0204" .
+ex:Data_Warehouse a ex:Course ; rdfs:label "Data Warehouse" ; ex:scheduledAt "Thursday, 10:00-11:40 " ; ex:locatedAt "0201-0724-0206" .
+ex:HumanComputer_Interaction a ex:Course ; rdfs:label "Human-Computer Interaction" ; ex:scheduledAt "Thursday, 10:00-11:40 " ; ex:locatedAt "0201-0724-0205" .
+ex:Operations_Research a ex:Course ; rdfs:label "Operations Research" ; ex:scheduledAt "Friday, 07:30-09:10 " ; ex:locatedAt "0201-0724-0204" .
+ex:Semantic_Web a ex:Course ; rdfs:label "Semantic Web" ; ex:scheduledAt "Friday, 08:30-11:00 " ; ex:locatedAt "0201-0724-0206" .
+ex:Interpersonal_Skills a ex:Course ; rdfs:label "Interpersonal Skills" ; ex:scheduledAt "Friday, 13:00-14:40 " ; ex:locatedAt "0201-0726-0201" .

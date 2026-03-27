@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdfs-schema#">
+
+  <rdf:Description rdf:about="http://example.org/Akmal">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dr. Akmal S.Si., M.T.</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/Head_Of_Undergraduate_Program"/>
+    <ex:teaches rdf:resource="http://example.org/Data_Structure"/>
+    <ex:teaches rdf:resource="http://example.org/Algorithm_Analysis"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Iwan_Kurniawan">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Iwan Kurniawan, S.E</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/Secreteray_of_Undergraduate_Program"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Anton_Djudju_Supriatna">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Anton Djudju Supriatna</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/TataUsaha"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Data_Structure">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Data Structure</rdfs:label>
+    <ex:scheduledAt>Monday, 13:00-15:30 </ex:scheduledAt>
+    <ex:locatedAt>0201-0724-0205</ex:locatedAt>
+  </rdf:Description>
+
+</rdf:RDF>
