@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:ex="http://example.org/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdfs-schema#">
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
   <rdf:Description rdf:about="http://example.org/Akmal">
     <rdf:type rdf:resource="http://example.org/Person"/>
@@ -9,6 +9,35 @@
     <ex:holdsPosition rdf:resource="http://example.org/Head_Of_Undergraduate_Program"/>
     <ex:teaches rdf:resource="http://example.org/Data_Structure"/>
     <ex:teaches rdf:resource="http://example.org/Algorithm_Analysis"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Afrida_Helen">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dr. Afrida Helen S.T., M.Kom.</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/Head_of_Department"/>
+    <ex:teaches rdf:resource="http://example.org/Data_Structure"/>
+    <ex:teaches rdf:resource="http://example.org/Data_Warehouse"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Asep_Sholahuddin">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dr. Drs. Asep Sholahuddin MT</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/Head_of_Laboratory"/>
+    <ex:teaches rdf:resource="http://example.org/Artificial_Intelligence"/>
+    <ex:teaches rdf:resource="http://example.org/Computer_Architecture_Organization"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Juli_Rejito">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dr. Juli Rejito M.Kom</rdfs:label>
+    <ex:teaches rdf:resource="http://example.org/Database_System_I"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Setiawan_Hadi">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dr. Setiawan Hadi M.Sc.CS</rdfs:label>
+    <ex:teaches rdf:resource="http://example.org/Professional_Ethics"/>
+    <ex:teaches rdf:resource="http://example.org/Digital_Image_Processing_Analysis"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://example.org/Iwan_Kurniawan">
@@ -23,11 +52,52 @@
     <ex:holdsPosition rdf:resource="http://example.org/TataUsaha"/>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://example.org/Dede_Mulyana">
+    <rdf:type rdf:resource="http://example.org/Person"/>
+    <rdfs:label>Dede Mulyana</rdfs:label>
+    <ex:holdsPosition rdf:resource="http://example.org/TataUsaha"/>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://example.org/Data_Structure">
     <rdf:type rdf:resource="http://example.org/Course"/>
     <rdfs:label>Data Structure</rdfs:label>
-    <ex:scheduledAt>Monday, 13:00-15:30 </ex:scheduledAt>
+    <ex:scheduledAt>Monday, 13:00-15:30</ex:scheduledAt>
     <ex:locatedAt>0201-0724-0205</ex:locatedAt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Artificial_Intelligence">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Artificial Intelligence</rdfs:label>
+    <ex:scheduledAt>Monday, 10:00-12:30</ex:scheduledAt>
+    <ex:locatedAt>0201-0724-0206</ex:locatedAt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Database_System_I">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Database System I</rdfs:label>
+    <ex:scheduledAt>Monday, 07:30-10:00</ex:scheduledAt>
+    <ex:locatedAt>0201-0724-0205</ex:locatedAt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Semantic_Web">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Semantic Web</rdfs:label>
+    <ex:scheduledAt>Friday, 08:30-11:00</ex:scheduledAt>
+    <ex:locatedAt>0201-0724-0206</ex:locatedAt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Theory_of_Language_Automata">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Theory of Language &amp; Automata</rdfs:label>
+    <ex:scheduledAt>Monday, 07:30-10:00</ex:scheduledAt>
+    <ex:locatedAt>0201-0726-0102</ex:locatedAt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Informatics_Physics">
+    <rdf:type rdf:resource="http://example.org/Course"/>
+    <rdfs:label>Informatics Physics</rdfs:label>
+    <ex:scheduledAt>Tuesday, 07:30-10:00</ex:scheduledAt>
+    <ex:locatedAt>0201-0726-0102</ex:locatedAt>
   </rdf:Description>
 
 </rdf:RDF>
